@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nazaret\\source\\repos\\ProyectoVacio\\ProyectoVacio\\ProyectoVacio.csproj": {}
+    "C:\\Users\\Nazaret\\Repos\\ProyectoVacioC\\ProyectoVacio\\ProyectoVacio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nazaret\\source\\repos\\ProyectoVacio\\ProyectoVacio\\ProyectoVacio.csproj": {
+    "C:\\Users\\Nazaret\\Repos\\ProyectoVacioC\\ProyectoVacio\\ProyectoVacio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nazaret\\source\\repos\\ProyectoVacio\\ProyectoVacio\\ProyectoVacio.csproj",
+        "projectUniqueName": "C:\\Users\\Nazaret\\Repos\\ProyectoVacioC\\ProyectoVacio\\ProyectoVacio.csproj",
         "projectName": "ProyectoVacio",
-        "projectPath": "C:\\Users\\Nazaret\\source\\repos\\ProyectoVacio\\ProyectoVacio\\ProyectoVacio.csproj",
+        "projectPath": "C:\\Users\\Nazaret\\Repos\\ProyectoVacioC\\ProyectoVacio\\ProyectoVacio.csproj",
         "packagesPath": "C:\\Users\\Nazaret\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nazaret\\source\\repos\\ProyectoVacio\\ProyectoVacio\\obj\\",
+        "outputPath": "C:\\Users\\Nazaret\\Repos\\ProyectoVacioC\\ProyectoVacio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -43,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
